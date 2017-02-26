@@ -1,0 +1,691 @@
+html{
+	background-color: #fff;
+}
+
+.topTitle{
+	float: left;
+	color:white;
+	font-size: 32px;
+	line-height:50px;
+	text-underline: none;
+	list-style: none;
+}
+
+
+.topTitle:hover{
+	list-style: none;
+	text-underline: none;
+}
+
+#header_fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 52px;
+	line-height:30px;
+    border-bottom: 1px solid #2b2b2b;
+	background-color: #055FB8;
+    z-index: 2222;
+}
+.first_session li,.first_session li{
+    width: 177px;
+    
+}
+body{
+    font-family: 'Microsoft YaHei' 'SimHei';
+}
+.header{
+    width: 1000px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    display: block;
+    width: 82px;
+    height: 30px;
+    float: left;
+    padding-top: 5px;
+}
+
+.header{
+	background-color: #055FB8;
+}
+
+.header ul{
+    float: right;
+    height: 40px;
+	/*background-color: #055FB8;*/
+
+}
+.header ul li{
+    float: right;
+    height: 18px;
+    margin-top: 11px;
+    margin-right: 25px;
+    font-size: 14px;
+    list-style: none;
+
+}
+.header ul li a{
+    color:white;
+    text-decoration: none;
+	font-size: 22px;
+}
+
+
+
+/*=============自己增加的*/
+.login_button a{
+	font-family: 微软雅黑;
+	font-size: 26px;
+	color:white;
+}
+/*=============自己增加的*/
+
+.header ul .message{
+    list-style: url("../images/star.png");
+}
+.header ul .favorites{
+    list-style: url("../images/star.png");
+    margin-left: 40px;
+}
+.header ul .login_button{
+    color: #2db3f8;
+}
+
+.header ul li .message{
+    /* background: url(../images/star.png); */
+    padding-left: 15px;
+    width: 100px;
+    background: red;
+}
+.header ul li .favorites{
+    padding-left: 15px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+input.love{
+    width: 20px !important;
+    cursor: pointer;
+    background:url("../images/love.png")-2px 0px;
+    border:0px;
+    visibility: hidden;
+}
+.slide li:hover .love,.slide2 li:hover .love{
+    visibility: visible;
+}
+/* .............................................................................................. */
+.content{
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 69px;
+
+}
+
+.search{
+	margin-top: 10px;
+	margin-left: 16px;
+	background-color: white;
+	width: 320px;
+	height: 36px;
+	font-size: 16px;
+	text-indent: 6px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.search_box{
+	/*width: 290px;*/
+	width: 402px;
+	height: 280px;
+	float: left;
+	background: #2db3f8;
+	color: white;
+	overflow: hidden;
+
+}
+.search_box>p{
+	font-size: 30px;
+	margin-left: 18px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.search_box span{
+	font-size: 18px;
+}
+.tip span a{
+    color: #9E9FA1;
+}
+.tip span a:hover{
+    color: #2DB3F8;
+    text-decoration: none;
+}
+.tip .more{
+    float: right;
+    margin-right: 20px;
+}
+.used ,.buy{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	
+}
+.used{
+	background: url(../images/selected.png);
+	margin-left: 45px;
+
+
+}
+.buy{
+	background: url(../images/select.png);
+	margin-left: 30px;
+}
+#search{
+	width: 204px;
+	height: 40px;
+	float: left;
+	font-size: 16px;
+	text-indent: 9px;
+	margin-left: 28px;
+	margin-top: 23px;
+	margin-bottom: 25px;
+}
+.search_button{
+	
+	float: left;
+margin-bottom: 19px;
+	margin-top: 23px;
+}
+.goods_submit,.buy_submit{
+	width: 91px;
+	height:33px;
+	margin-top: 10px;
+
+}
+.goods_submit p,.buy_submit p{
+    color:#2db3f8;
+    font-size: 16px;
+    font-family: '寰蒋闆呴粦';
+    line-height: 33px;
+    height: 33px;
+    text-align: center;
+}
+.line{
+    height: 0px;
+    width: 100%;
+    border-top: 1px solid #189ce0;
+    clear: both;
+}
+hr{
+	clear: both;
+	width: 100%;
+	color: black;
+}
+.goods_submit{
+	background: url(../images/button.png);
+	margin-right: 42px;
+	margin-left: 35px;
+}
+.buy_submit{
+	background: url(../images/button.png);
+}
+.navigation{
+	width: 1200px;
+	height: 340px;
+	
+}
+.classification{
+	width: 140px;
+	height: 280px;
+	float: left;
+	background: #9e9fa1;
+	margin-right: 10px;
+}
+.classification >div{
+	width: 140px;
+	height: 55px;
+	border-top: 1px solid #747474;
+	position: relative;
+}
+
+.classification >div p{
+	font-size: 20px;
+	color: #e7e7e7;
+	margin-left: 10px;
+	padding-top: 6px;
+}
+.classification >div span{
+	color: #c2c1c2;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+
+.banner{
+	margin-left: 30px;
+	width: 560px;
+	/*height: 280px;*/
+	height: 340px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.banner .show {
+    width: 560px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index:2;
+
+}
+.banner .show li{
+	width: 560px;
+	height: 280px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+
+}
+.banner .number{
+	width: 160px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 240px;
+	z-index: 222;
+}
+.banner .number li{
+	margin-right: 10px;
+	float: left;
+	width: 20px;
+	height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #dddcdc;
+}
+.banner .number .active{
+    background:#2db3f8;
+}
+
+/* ...........................................session1............................................ */
+.first_session{
+	background: white;
+	width: 1000px;
+	height: 315px;
+	margin-top: 10px;
+	padding-top: 15px;
+    position: relative;
+}
+.first_session span {
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 15px;
+	display: block;
+	width: 80px;
+	height: 30px;
+	float: left;
+	padding-bottom: 10px;
+    color: #333;
+
+	
+	
+}
+
+.first_session .title1{
+	background: url(../images/border.png) no-repeat 35px 31px;
+}
+.first_session .one{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.first_session .two{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.slide{
+	width: 950px;
+	height: 220px;
+	padding: 15px 0px 15px 13px;
+	border: 1px solid #9fa09f;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top:35px;
+
+}
+
+.slide li p{
+    font-size: 14px;
+    color: #333;
+    font-family: '寰蒋闆呴粦';
+    overflow: hidden;
+    
+}
+.slide li .p1{
+    width: 11em;
+    position: absolute;
+    top: 185px;
+    left: 0em;
+    text-align:center;
+}
+.slide li .p2{
+    width: 5em;
+    position: absolute;
+    top: 5px;
+    background: #EB5055;
+    text-align: center;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    left: 8em;
+}
+.slide li{
+	float: left;
+	margin-right: 13px;
+	position: relative;
+}
+.slide li .mr0{
+	margin-right: 0px;
+}
+.hidden{
+	visibility: hidden;
+}
+/* ...........................................session2............................................ */
+.tip{
+    margin-top: 60px;
+}
+.tip span{
+    font-size: 20px;
+    color: #757575;
+}
+.second_session{
+	width: 998px;
+	height: 480px;
+	border: 1px solid #c1c1c1;
+	background: white;
+    margin-top: 10px;
+    padding-top: 20px;
+	
+}
+ .green{
+	width: 5px;
+	height: 18px;
+	background: #2db3f8;
+	float: left;
+	margin-left: 26px;
+	margin-right: 5px;
+	margin-top: 6px;
+	
+}
+ .span{
+	font-size: 20px;
+	display: block;
+	height: 30px;
+	width: 120px;
+	
+}
+.second_session .slide2{
+	width: 965px;
+	margin-left: 26px;
+	margin-right: auto;
+
+
+}
+.slide2 li p{
+    font-size: 14px;
+    color: #333;
+    font-family: '寰蒋闆呴粦';
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide2 li .p1{
+    width: 12em;
+    position: absolute;
+    top: 185px;
+    left: 0;
+    text-align:center;
+}
+.slide2 li .p2{
+    width: 5em;
+    position: absolute;
+    top: 5px;
+    background: #EB5055;
+    text-align: center;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    left: 8em;
+}
+.second_session .slide2 li{
+	padding-right: 15px;
+	float: left;
+	width: 177px;
+	height: 220px;
+	padding-bottom: 15px;
+	position: relative;
+}
+/* ............................................footer.................................................. */
+.footer{
+	width: 1122px;
+	height: 65px;
+	border-top: 1px solid #2db3f8;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.footer span{
+	margin-right: 10px;
+}
+.footer p{
+	font-size: 16px;
+	width: 17em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+.footer a{
+    color: #6F1FB9;
+}
+/* ..................................寮瑰嚭妗�......................................... */
+.bgNew{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: #828283;
+	z-index: 8888;
+}
+.register{
+	width: 298px;
+	height: 306px;
+	background: url(../images/bgRegister.png);
+	position: absolute;
+	z-index: 9999;
+	left: 0px;
+	top: 0px;
+}
+.register form{
+	width: 250px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+.register form input{
+	width: 248px;
+	height: 48px;
+	border-left: 1px solid #575757;
+	border-right: 1px solid #575757;
+	border-top: 1px solid #575757;
+	font-size: 20px;
+
+}
+.register form #submit{
+
+	border: none;
+	background: #2db3f8;
+	color: white;
+	font-size: 20px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+.login{
+	width: 298px;
+	height: 300px;
+	background: url(../images/bgLogin.png);
+	position: absolute;
+	z-index: 9999;
+	left: 0px;
+	top: 0px;
+}
+.login form{
+	width: 250px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 128px;
+}
+.login form .white{
+	background: white;
+}
+.login form .user,.password{
+	width: 218px;
+	height: 48px;
+	padding-left: 30px;
+	border-left: 1px solid #575757;
+	border-right: 1px solid #575757;
+	border-top: 1px solid #575757;
+	font-size: 20px;
+
+}
+.login form .white .user{
+	background: url(../images/name.png)  5px 15px no-repeat;
+}
+.login form .white .password{
+	background: url(../images/password.png)  5px 15px no-repeat;
+}
+.login form #submit2{
+
+	border: none;
+	background: #2db3f8;
+	color: white;
+	font-size: 20px;
+	width: 250px;
+	margin-top: 10px;
+	height: 50px;
+}
+/* ......................................................................................... */
+
+.bgDiv{
+	width: 140px;
+	height: 55px;
+	background: #747578;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 222;
+	display: none;
+	opacity: 0.5;
+
+}
+/* ...........................................淇敼.............................................. */
+#idea{
+    height: 31px;
+    width: 31px;
+    border-radius: 5px;
+    background: #458FCE;
+    position: fixed;
+    bottom: 20px;
+    right: 29px;
+    padding: 11px 9px 12px 15px;
+    cursor: pointer;
+    color: #fff;
+}
+#idea:hover{
+    color: #000;
+}
+#ShowBigPictureBox,#ShowBigPictureBox2{
+    position: absolute;
+    top:10px;
+    left: 195px;
+    overflow: hidden;
+    display: none;
+    border: 3px solid #ccc;
+    padding: 5px;
+    background-repeat: no-repeat;
+     background-color:#fff; 
+     width:300px; 
+     height:300px;
+      z-index: 9999;
+}
+.picbox{
+    position: relative;
+}
+
+/*===================自己添加的样式*/
+.cate{
+	display: inline;
+	float:left;
+	margin-left: 20px;
+}
+
+
+.smallcate{
+	width: 360px;
+	height: 38.8px;
+	background-color:black;
+	text-align:left;
+	text-indent: 38px;
+	font-size: 22px;
+	vertical-align: 60px;
+	color:white;
+	border-bottom: 1px solid white;
+}
+
+.smalltext{
+	display: inline-block;
+	margin-top: 13px;
+	font-size: 14px;
+	color:ghostwhite;
+	margin-left: 40px;
+}
+
+.deliver{
+	color:white;
+	font-size: 22px;
+	line-height:50px;
+	text-underline: none;
+	list-style: none;
+	margin-left: 90px;
+}
+
+.deliver_one{
+	color:white;
+	font-size: 22px;
+	line-height:50px;
+	text-underline: none;
+	list-style: none;
+	margin-left: 10px;
+}
+.deliver_tow{
+	color:white;
+	font-size: 22px;
+	line-height:50px;
+	text-underline: none;
+	list-style: none;
+	margin-left: 10px;
+}
+/*===================自己添加的样式*/
